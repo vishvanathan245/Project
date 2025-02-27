@@ -1,0 +1,83 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Styles */
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+}
+
+/* Hidden Class */
+.hidden {
+  display: none;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+input {
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Dashboard Header */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Update Profile Form */
+#update-form {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+#logout-btn {
+  background-color: #dc3545;
+}
+
+#logout-btn:hover {
+  background-color: #c82333;
+}
