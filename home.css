@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+width: 100%;
+background: url(images/voilet.png);
+}
+h3
+{             
+    font-size: 70px;
+    font-weight: 5000;
+    color: greenyellow;
+    font-style: italic;
+    margin-right: 90%;
+}
+h4{
+    margin-left: 80%;
+    font-size: 30px;
+    color: grey;
+    margin-top: 0%;
+    transition: 0.5s;
+}
+h4:hover{
+    font-size: 40px;
+    color: azure;
+}
+h5{
+    margin-left: 70%;
+    font-size: 20px;
+    padding: 20px;
+    color: thistle;
+
+}
+h6{
+    font-size: 70px;
+    font-weight: 5000;
+    color: greenyellow;
+    font-style: italic;
+    margin-left: 10%;
+    margin-top: 0%;
+}

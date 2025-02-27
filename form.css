@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: url(images/background.url.png);
+background-position: center;
+background-size: 100%;
+}
+h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;             
+    font-size: 70px;
+    font-weight: 5000;
+    color: greenyellow;
+    font-style: italic;
+    display: flex;
+    margin-top: 10%;
+    margin-right: 10%;
+    transition: 0.5s;
+}
+h1:hover
+{
+    font-size: 80px;
+    font-weight: 7000;
+    color: gold;
+    letter-spacing: 5px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 2000;
+    color: greenyellow;
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;    
+}
+
+label
+{
+    
+    color: aliceblue;
+    font-size: 20px;
+    padding: 20px;
+}
+.sam1
+{
+    padding: 7px;
+    padding: 7px;
+    border-color: gray;
+}
+button
+{
+    padding: 10px;
+    font-size: 15px;
+    color: blue;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.sample
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    border: 50px red;
+    height: 20%;
+    width:30%;
+    padding:20px;
+}
+
